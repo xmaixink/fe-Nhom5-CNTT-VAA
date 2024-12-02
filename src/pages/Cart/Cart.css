@@ -1,0 +1,175 @@
+.cart-container {
+  width: 100%;
+  min-height: 100vh;
+}
+.cart-wrapper {
+  margin: auto;
+  width: 80%;
+}
+.cart-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.cart-subtitle {
+  color: #777;
+}
+
+.cart-steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 20px 0;
+  background-color: white;
+  padding: 12px;
+}
+
+.step {
+  flex: 1;
+  position: relative;
+}
+
+.step-wrrapper {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: #777;
+}
+.step-number {
+  padding: 4px 10px;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #777;
+}
+.step-number.active {
+  background-color: #007bff;
+}
+
+.cart-content {
+  display: flex;
+  gap: 20px;
+}
+
+.cart-items {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.item-checkbox {
+  margin-right: 10px;
+}
+
+.item-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.item-brand {
+  font-size: 14px;
+  color: #888;
+}
+
+.item-price {
+  color: #28a745;
+  font-weight: bold;
+}
+.btn-black {
+  padding: 8px 12px;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.item-quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #d9534f;
+  font-size: 20px;
+}
+
+.cart-summary {
+  width: 20%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.voucher {
+  margin-bottom: 20px;
+}
+.input {
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 2px;
+}
+.apply-btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.order-summary {
+  margin-top: 20px;
+}
+
+.order-summary h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.order-summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.total-price {
+  font-weight: bold;
+  color: #d9534f;
+}

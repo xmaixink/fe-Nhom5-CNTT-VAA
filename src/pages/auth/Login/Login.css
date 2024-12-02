@@ -1,0 +1,96 @@
+/* LoginForm.css */
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-image: url('../../../asset/img/br.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0c0c0c;
+}
+
+.login-form {
+  max-width: 600px;
+  width: 100%;
+  background-color: rgb(230, 151, 62);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+}
+
+.login-form div {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.login-form input:focus {
+  border-color: #e2a83c;
+  outline: none;
+}
+
+.login-form button {
+  padding: 12px 20px;
+  background-color: #d8732a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #e2a83c;
+}
+
+.register-link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.register-link button {
+  background: none;
+  color: #101111;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.register-link button:hover {
+  color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}

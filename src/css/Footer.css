@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+}
+
+.footer {
+    background-color: #ffffff; /* Màu nền tối */
+    color: white; /* Màu chữ trắng */
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+  
+.icon1 {
+    width: 100px;
+    border-radius: 15px;
+}
+
+.text {
+    color: #D79875;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.icon2 {
+    width: 50px;
+    padding-top: 10px;
+}
+
+.icon3 {
+    width: 50px;
+    margin-left: 10px; ;
+}
+
+.img1, .img2 {
+    width: 250px;
+    margin: 10px;
+}
+
+.txt1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}

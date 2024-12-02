@@ -1,0 +1,172 @@
+/* src/Navbar.css */
+.navbar {
+  background-color: #000; /* Nền màu đen */
+  color: #fff;
+  display: flex;
+  justify-content: center; /* Giữ các phần tử trong navbar ở giữa */
+  align-items: center; /* Căn chỉnh theo chiều dọc */
+  padding: 1rem 2rem;
+  position: relative; /* Để có thể đặt các phần tử khác nếu cần */
+}
+
+.logo-container {
+  position: absolute; /* Đặt logo ở vị trí cố định */
+  left: 2rem; /* Khoảng cách từ bên trái */
+}
+
+.logo {
+  font-size: 24px;
+  color: #f4ca44;
+}
+
+.nav-links {
+  display: flex; /* Sử dụng flexbox để căn chỉnh các liên kết */
+  gap: 2rem; /* Khoảng cách giữa các liên kết */
+  margin: 0 auto; /* Đẩy nav-links về giữa */
+  padding: 0; /* Đặt padding bằng 0 */
+}
+
+.nav-links a {
+  color: #f4ca44; /* Màu sắc của liên kết */
+  text-decoration: none; /* Bỏ gạch chân */
+  font-size: 18px;
+  transition: color 0.3s ease; /* Hiệu ứng chuyển đổi màu sắc */
+}
+
+/* Thêm quy tắc hover cho liên kết */
+.nav-links a:hover {
+  color: #e91e63; /* Màu hồng khi hover */
+}
+
+.search-container {
+  display: flex; /* Sử dụng flexbox cho thanh tìm kiếm */
+  margin-left: auto; /* Đẩy thanh tìm kiếm về bên phải */
+}
+
+.search-input {
+  /* padding: 1rem; */
+  padding: 16px 60px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 60px;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0 4px 4px 0; /* Bo góc bên phải */
+  background-color: #f4ca44;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #e0b739; /* Màu nền khi hover */
+}
+.cart-link i {
+  color: #f4ca44; /* Màu vàng cho biểu tượng giỏ hàng */
+  font-size: 24px; /* Kích thước biểu tượng */
+  transition: color 0.3s ease; /* Hiệu ứng chuyển màu */
+  margin-right: 20px;
+}
+
+.cart-link i:hover {
+  color: #e91e63; /* Màu hồng khi hover */
+}
+
+/* Đặt trong file Navbar.css */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff; /* Màu chữ trắng */
+  background-color: #007bff; /* Nền màu xanh dương */
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-right: 20px;
+}
+
+.user-info span {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.user-info button {
+  background-color: #ff4d4d; /* Nút màu đỏ */
+  color: #ffffff; /* Chữ màu trắng */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.user-info button:hover {
+  background-color: #e60000; /* Màu khi hover */
+  transform: scale(1.05); /* Hiệu ứng phóng to nhẹ */
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-greeting {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.order-history-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.order-history-link:hover {
+  color: #0056b3;
+}
+
+.order-history-link i {
+  font-size: 16px;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.login-link {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.login-link:hover {
+  color: #0056b3;
+}
+
+.history-user {
+  font-size: 25px;
+  color: #ffffff;
+}

@@ -1,0 +1,83 @@
+.orders {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.order-number {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.order-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-card h2 {
+  color: #333;
+}
+
+.product {
+  display: flex;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.product-details h3 {
+  margin: 0;
+  color: #444;
+}
+
+.product-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.status-pending {
+  color: #ff9800;
+}
+
+.status-paid {
+  color: #4caf50;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333;
+}
+
+h3 {
+  font-size: 16px;
+  color: #444;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
